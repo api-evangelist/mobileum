@@ -1,8 +1,27 @@
 aid: mobileum
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mobileum.png
 name: Mobileum
-description: 'Mobileum is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Mobileum is a telecom analytics and intelligence software vendor whose Active
+  Intelligence Platform delivers AI-powered decisioning, risk management, and
+  network insight for mobile network operators. Its product families span roaming
+  management (traffic steering, GlobalRoamer, campaign management), risk management
+  (revenue assurance and fraud detection via RAID), network security (cross-protocol
+  signaling firewalls and SMS/voice protection), testing and service assurance (5G,
+  eSIM, IoT, VoLTE testing, dsTest), customer experience, and data insights and
+  monetization. Mobileum sells primarily to carriers as deployed/managed enterprise
+  software and does not publish a public developer portal or open API surface.
 url: https://raw.githubusercontent.com/api-evangelist/mobileum/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
+- Telecommunications
+- Roaming
+- Fraud Detection
+- Revenue Assurance
+- Network Security
+- Analytics
+- Testing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.mobileum.com/
+- type: Blog
+  url: https://blog.mobileum.com/
+- type: Support
+  url: https://www.mobileum.com/contact-us
+- type: PrivacyPolicy
+  url: https://www.mobileum.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/Mobileum
+- type: TrustCenter
+  url: https://www.mobileum.com/trust-center
+- type: Compliance
+  url: https://www.mobileum.com/trust-center
+- type: DomainSecurity
+  url: security/mobileum-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
