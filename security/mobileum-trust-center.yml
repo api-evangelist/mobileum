@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.mobileum.com/trust-center
+url: https://www.mobileum.com/trust-center
+certifications:
+- ISO/IEC 27001:2022
+programs:
+- Governance, risk & compliance
+- Data protection and information classification
+- Identity and access management
+- Infrastructure and endpoint security
+- Secure development practices
+- Threat detection and vulnerability management
+- Incident response
+- Business continuity and disaster recovery
+- Personnel security and awareness training
+evidence:
+- source: https://www.mobileum.com/trust-center
+  keywords: [iso/iec 27001:2022, trust center, information security, compliance]
+notes: >-
+  Mobileum publishes a Trust Center describing its information-security program and
+  states it is an ISO/IEC 27001:2022 certified organization. No SOC 2, PCI DSS, HIPAA,
+  or FedRAMP certifications were named on the page, and no security contact or
+  responsible-disclosure/bug-bounty program was published.
